@@ -1,0 +1,79 @@
+<div class="mainbg">
+	<div class="row">
+		<div class="loginTitle">
+			<div class="caption col-sm-7 col-md-7">
+				<p class="title">
+					<strong>工欲善其事，必先利其器</strong>
+				</p>
+				<p class="content">
+					我们已经为您准备好了x个行业的专业网站、工具、希望能够和您一起共同成长
+				</p>
+			</div>
+		</div>
+		<div class="loginform col-sm-4 col-md-4">
+			<form class="form-horizontal" action="" method="POST" role="form" name="form">
+				<div class="row form-group">
+					<div class="col-sm-4 col-md-4">
+						<label for="accountNo">账号</label>
+					</div>
+					<div class="col-sm-8 col-md-8">
+						<input class="login-accountNo form-control" id="accountNo" type="text" name="accountNo" ng-model="accountNo" required></input>
+					</div>
+					<div class="col-sm-8 col-md-8">
+						<p class="help-block" ng-show="form.accountNo.$dirty && form.accountNo.$invalid">
+				        <span ng-show="form.accountNo.$error.required">请填写账号</span>
+				      </p>
+				    </div>
+				</div>
+				<div class="row form-group" ng-class="{'has-error': form.password.$dirty && form.password.$invalid }">
+					<div class="col-sm-4 col-md-4">
+						<label for="pwd">密码</label>
+					</div>
+					<div class="col-sm-8 col-md-8">
+						<input id="pwd" type="password" class="form-control" ng-minlength="6" ng-maxlength="20" name="password" ng-model="password" required></input>
+					</div>
+					<div class="col-sm-8 col-md-8">
+						<p class="help-block" ng-show="form.password.$dirty && form.password.$invalid">
+				        <span ng-show="form.password.$error.required">请填写密码</span>
+				        <span ng-show="form.password.$error.minlength">密码需要6位及以上</span>
+				        <span ng-show="form.password.$error.maxlength">密码长度需要20位及以下</span>
+				        <span ng-show="form.password.$error.passerror">密码输入有误，请重试</span>
+				      </p>
+				    </div>
+				</div>
+	
+				<div  class="row form-group">
+					<div class="col-sm-4 col-md-4">
+						
+					</div>
+					<div class="col-sm-4 col-md-4">
+						<input id="yz" type="text" placeholder="验证码" required>
+					</div>
+					<div class="col-sm-4 col-md-4">
+						</input><img src="../gg.png">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-sm-4 col-md-4">
+					</div>
+					<div class="col-sm-8 col-md-8">
+						<button class="btn btn-default" type="button" >登录</button>
+					</div>
+					
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-6">
+					</div>
+					<div class="col-sm-2 col-md-2">
+						<a href="#">注册</a>
+					</div>
+					<div class="col-sm-4 col-md-4">
+						<a href="#">忘记密码</a>
+					</div>
+				</div>
+			
+			</form>
+		</div>
+	</div>
+</div>
+

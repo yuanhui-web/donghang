@@ -1,0 +1,57 @@
+/*
+两个navbar共同样式访问之前字体颜色
+*/
+.navbar-default .collapse .navbar-nav>li>a{
+	color: #fff; 
+}
+
+/* mainnav样式*/
+#mainnav{
+margin-bottom: 0px;
+background-color: #393885;
+}
+
+.navbar-default .collapse .navbar-nav>.active>a{
+	color: #fff;
+	background-color: #6a6aff;
+}
+
+.navbar-default .navbar-header>p{
+	color: #fff;
+	float: left;
+    height: 40px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    padding-left: 0px;
+}
+
+/* subnav样式*/
+#subnav{
+background-color: #C9C9C9; 
+}
+
+.badge{
+	background-color: blue;
+	width: 60px;
+}
+
+/*设置subnav的白色竖条边框*/
+#subnav li>a{
+	width: 87px;
+	text-align: center;
+	border-right-style: solid;
+	border-right-color: #fff;
+	border-right-width: 0.5px;
+
+}
+#subnav li:first-child>a{
+	border-left-style: solid;
+	border-left-color: #fff;
+	border-left-width: 0.5px;
+}
+/*#subnav .li0 >a{
+	border-left-style: solid;
+	border-left-color: #fff;
+	border-left-width: 0.5px;
+}*/

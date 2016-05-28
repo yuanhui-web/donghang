@@ -1,0 +1,43 @@
+
+
+/*登录左侧字设置*/
+.loginTitle .caption{
+	color: red;
+	padding-top: 5%;
+	padding-left: 15%;
+	padding-right: 14%;
+}
+.title{
+	font-size: 25px;
+}
+
+/*登录框设置*/
+.loginform{
+	border:0.5px solid;
+	margin: 40px 0px 40px 30px;
+}
+/*账号和上边框之间的距离*/
+.form-horizontal{
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+
+/*输入框和按钮的宽度*/
+.loginform input,.loginform .btn{
+	width: 180px;
+}
+
+/*验证码输入框宽度*/
+#yz{
+	width: 100px;
+}
+/*验证码图片宽度*/
+.loginform img{
+	width: 50px;
+}
+
+.loginform a{
+	color: #000;
+}
+

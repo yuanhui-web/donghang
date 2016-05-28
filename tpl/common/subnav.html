@@ -1,0 +1,11 @@
+<nav id="subnav" class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div  class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav" style="margin-left: -15px;" ng-controller="navController">
+					<li ng-repeat="industry in industryList"><a href="" ng-click="active($index + 1)"><span ng-class="{badge:active[$index + 1]}">{{industry.industryName}}</span></a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
